@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('fonts/cac_champagne-webfont.eot');
+    src: url('fonts/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cac_champagne-webfont.woff2') format('woff2'),
+         url('fonts/cac_champagne-webfont.woff') format('woff'),
+         url('fonts/cac_champagne-webfont.ttf') format('truetype'),
+         url('fonts/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*
+{
+	font-family: 'cac_champagneregular', Arial, Verdana, sans-serif;
+	color: #060c2e;
+}
+
+body
+{
+	background: repeating-radial-gradient(closest-corner ellipse at center, #b7bfeb, #99acc9, #b7bfeb 300px);
+    padding: 40px 80px;
+}
+
+#conteneur
+{
+    display: flex;
+}
+
+.bloc
+{
+    width: 100%;
+}
+
+img
+{
+    border: 3px black outset;
+    border-radius: 10px;
+}
+
+h1, p
+{
+    text-align: center;
+    margin-top: 35px;
+}
